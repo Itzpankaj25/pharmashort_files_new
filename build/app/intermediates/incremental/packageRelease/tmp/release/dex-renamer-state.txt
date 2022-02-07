@@ -1,0 +1,4 @@
+#Fri Feb 04 18:36:48 PST 2022
+base.0=E\:\\FlutterProject\\pharmashort files\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,150 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.softgneer.pharmashots"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->E:\FlutterProject\pharmashort files\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->E:\FlutterProject\pharmashort files\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->[com.github.canardoux:flutter_sound_core:9.1.1] C:\Users\s\.gradle\caches\transforms-2\files-2.1\bc176453de8b545209c889a141fb3b1b\jetified-flutter_sound_core-9.1.1\AndroidManifest.xml:11:5-68
+11-->[com.github.canardoux:flutter_sound_core:9.1.1] C:\Users\s\.gradle\caches\transforms-2\files-2.1\bc176453de8b545209c889a141fb3b1b\jetified-flutter_sound_core-9.1.1\AndroidManifest.xml:11:22-65
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->[com.github.canardoux:flutter_sound_core:9.1.1] C:\Users\s\.gradle\caches\transforms-2\files-2.1\bc176453de8b545209c889a141fb3b1b\jetified-flutter_sound_core-9.1.1\AndroidManifest.xml:12:5-68
+12-->[com.github.canardoux:flutter_sound_core:9.1.1] C:\Users\s\.gradle\caches\transforms-2\files-2.1\bc176453de8b545209c889a141fb3b1b\jetified-flutter_sound_core-9.1.1\AndroidManifest.xml:12:22-65
+13    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+13-->[com.github.canardoux:flutter_sound_core:9.1.1] C:\Users\s\.gradle\caches\transforms-2\files-2.1\bc176453de8b545209c889a141fb3b1b\jetified-flutter_sound_core-9.1.1\AndroidManifest.xml:13:5-80
+13-->[com.github.canardoux:flutter_sound_core:9.1.1] C:\Users\s\.gradle\caches\transforms-2\files-2.1\bc176453de8b545209c889a141fb3b1b\jetified-flutter_sound_core-9.1.1\AndroidManifest.xml:13:22-77
+14
+15    <application
+16        android:name="android.app.Application"
+16-->E:\FlutterProject\pharmashort files\android\app\src\main\AndroidManifest.xml:5:9-42
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.6.0] C:\Users\s\.gradle\caches\transforms-2\files-2.1\5f663b08eec19eef9a9d1af662d9025e\core-1.6.0\AndroidManifest.xml:24:18-86
+18        android:icon="@mipmap/ic_launcher"
+18-->E:\FlutterProject\pharmashort files\android\app\src\main\AndroidManifest.xml:6:9-43
+19        android:label="pharmashots" >
+19-->E:\FlutterProject\pharmashort files\android\app\src\main\AndroidManifest.xml:4:9-36
+20        <activity
+20-->E:\FlutterProject\pharmashort files\android\app\src\main\AndroidManifest.xml:7:9-27:20
+21            android:name="com.softgneer.pharmashots.MainActivity"
+21-->E:\FlutterProject\pharmashort files\android\app\src\main\AndroidManifest.xml:8:13-41
+22            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+22-->E:\FlutterProject\pharmashort files\android\app\src\main\AndroidManifest.xml:12:13-163
+23            android:exported="true"
+23-->E:\FlutterProject\pharmashort files\android\app\src\main\AndroidManifest.xml:9:13-36
+24            android:hardwareAccelerated="true"
+24-->E:\FlutterProject\pharmashort files\android\app\src\main\AndroidManifest.xml:13:13-47
+25            android:launchMode="singleTop"
+25-->E:\FlutterProject\pharmashort files\android\app\src\main\AndroidManifest.xml:10:13-43
+26            android:theme="@style/LaunchTheme"
+26-->E:\FlutterProject\pharmashort files\android\app\src\main\AndroidManifest.xml:11:13-47
+27            android:windowSoftInputMode="adjustResize" >
+27-->E:\FlutterProject\pharmashort files\android\app\src\main\AndroidManifest.xml:14:13-55
+28
+29            <!--
+30                 Specifies an Android theme to apply to this Activity as soon as
+31                 the Android process has started. This theme is visible to the user
+32                 while the Flutter UI initializes. After that, this theme continues
+33                 to determine the Window background behind the Flutter UI.
+34            -->
+35            <meta-data
+35-->E:\FlutterProject\pharmashort files\android\app\src\main\AndroidManifest.xml:19:13-22:17
+36                android:name="io.flutter.embedding.android.NormalTheme"
+36-->E:\FlutterProject\pharmashort files\android\app\src\main\AndroidManifest.xml:20:15-70
+37                android:resource="@style/NormalTheme" />
+37-->E:\FlutterProject\pharmashort files\android\app\src\main\AndroidManifest.xml:21:15-52
+38
+39            <intent-filter>
+39-->E:\FlutterProject\pharmashort files\android\app\src\main\AndroidManifest.xml:23:13-26:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->E:\FlutterProject\pharmashort files\android\app\src\main\AndroidManifest.xml:24:17-68
+40-->E:\FlutterProject\pharmashort files\android\app\src\main\AndroidManifest.xml:24:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->E:\FlutterProject\pharmashort files\android\app\src\main\AndroidManifest.xml:25:17-76
+42-->E:\FlutterProject\pharmashort files\android\app\src\main\AndroidManifest.xml:25:27-74
+43            </intent-filter>
+44        </activity>
+45        <!--
+46             Don't delete the meta-data below.
+47             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+48        -->
+49        <meta-data
+49-->E:\FlutterProject\pharmashort files\android\app\src\main\AndroidManifest.xml:30:9-32:33
+50            android:name="flutterEmbedding"
+50-->E:\FlutterProject\pharmashort files\android\app\src\main\AndroidManifest.xml:31:13-44
+51            android:value="2" />
+51-->E:\FlutterProject\pharmashort files\android\app\src\main\AndroidManifest.xml:32:13-30
+52
+53        <provider
+53-->[:image_picker] E:\FlutterProject\pharmashort files\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:8:9-16:20
+54            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+54-->[:image_picker] E:\FlutterProject\pharmashort files\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:9:13-82
+55            android:authorities="com.softgneer.pharmashots.flutter.image_provider"
+55-->[:image_picker] E:\FlutterProject\pharmashort files\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:10:13-74
+56            android:exported="false"
+56-->[:image_picker] E:\FlutterProject\pharmashort files\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:13-37
+57            android:grantUriPermissions="true" >
+57-->[:image_picker] E:\FlutterProject\pharmashort files\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:12:13-47
+58            <meta-data
+58-->[:image_picker] E:\FlutterProject\pharmashort files\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:75
+59                android:name="android.support.FILE_PROVIDER_PATHS"
+59-->[:image_picker] E:\FlutterProject\pharmashort files\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:14:17-67
+60                android:resource="@xml/flutter_image_picker_file_paths" />
+60-->[:image_picker] E:\FlutterProject\pharmashort files\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:15:17-72
+61        </provider>
+62
+63        <activity
+63-->[:url_launcher_android] E:\FlutterProject\pharmashort files\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
+64            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+64-->[:url_launcher_android] E:\FlutterProject\pharmashort files\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
+65            android:exported="false"
+65-->[:url_launcher_android] E:\FlutterProject\pharmashort files\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
+66            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+66-->[:url_launcher_android] E:\FlutterProject\pharmashort files\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
+67        <activity
+67-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\s\.gradle\caches\transforms-2\files-2.1\d115430b01567f75290645169026f953\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+68            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+68-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\s\.gradle\caches\transforms-2\files-2.1\d115430b01567f75290645169026f953\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+69            android:excludeFromRecents="true"
+69-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\s\.gradle\caches\transforms-2\files-2.1\d115430b01567f75290645169026f953\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+70            android:exported="false"
+70-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\s\.gradle\caches\transforms-2\files-2.1\d115430b01567f75290645169026f953\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\s\.gradle\caches\transforms-2\files-2.1\d115430b01567f75290645169026f953\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+72        <!--
+73            Service handling Google Sign-In user revocation. For apps that do not integrate with
+74            Google Sign-In, this service will never be started.
+75        -->
+76        <service
+76-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\s\.gradle\caches\transforms-2\files-2.1\d115430b01567f75290645169026f953\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+77            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+77-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\s\.gradle\caches\transforms-2\files-2.1\d115430b01567f75290645169026f953\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+78            android:exported="true"
+78-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\s\.gradle\caches\transforms-2\files-2.1\d115430b01567f75290645169026f953\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+79            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+79-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\s\.gradle\caches\transforms-2\files-2.1\d115430b01567f75290645169026f953\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+80
+81        <activity
+81-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\s\.gradle\caches\transforms-2\files-2.1\3379954b54da4c690bd742f1e4b2cf6f\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+82            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+82-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\s\.gradle\caches\transforms-2\files-2.1\3379954b54da4c690bd742f1e4b2cf6f\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+83            android:exported="false"
+83-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\s\.gradle\caches\transforms-2\files-2.1\3379954b54da4c690bd742f1e4b2cf6f\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+84            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+84-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\s\.gradle\caches\transforms-2\files-2.1\3379954b54da4c690bd742f1e4b2cf6f\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+85
+86        <meta-data
+86-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\s\.gradle\caches\transforms-2\files-2.1\fc37094cae7bcab02e53cd05528600fd\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+87            android:name="com.google.android.gms.version"
+87-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\s\.gradle\caches\transforms-2\files-2.1\fc37094cae7bcab02e53cd05528600fd\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+88            android:value="@integer/google_play_services_version" />
+88-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\s\.gradle\caches\transforms-2\files-2.1\fc37094cae7bcab02e53cd05528600fd\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+89    </application>
+90
+91</manifest>

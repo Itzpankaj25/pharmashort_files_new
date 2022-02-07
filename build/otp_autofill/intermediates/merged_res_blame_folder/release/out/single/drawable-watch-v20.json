@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\FlutterProject\\pharmashort files\\build\\otp_autofill\\intermediates\\res\\merged\\release\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\s\\.gradle\\caches\\transforms-2\\files-2.1\\d115430b01567f75290645169026f953\\jetified-play-services-auth-17.0.0\\res\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "E:\\FlutterProject\\pharmashort files\\build\\otp_autofill\\intermediates\\res\\merged\\release\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\s\\.gradle\\caches\\transforms-2\\files-2.1\\d115430b01567f75290645169026f953\\jetified-play-services-auth-17.0.0\\res\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "E:\\FlutterProject\\pharmashort files\\build\\otp_autofill\\intermediates\\res\\merged\\release\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\s\\.gradle\\caches\\transforms-2\\files-2.1\\d115430b01567f75290645169026f953\\jetified-play-services-auth-17.0.0\\res\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml"
+    }
+]
