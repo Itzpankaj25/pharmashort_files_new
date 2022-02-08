@@ -76,7 +76,7 @@ class AnimalHealth extends StatelessWidget {
                               ),
                                   ),
                                   Padding(
-                                    padding: const EdgeInsets.only(right: 8.0),
+                                    padding: const EdgeInsets.only(right: 8.0,top: 6),
                                     child: Row(
                                       children: [
 
@@ -95,7 +95,9 @@ class AnimalHealth extends StatelessWidget {
                                           width: 8,
                                         ),
                                         SvgPicture.asset(
-                                            'assets/images/icons svg/Icon ionic-ios-bookmark.svg'
+                                            'assets/images/icons svg/Icon ionic-ios-bookmark.svg',
+                                          height: 14,
+                                          width: 13,
                                         ),
                                       ],
                                     ),

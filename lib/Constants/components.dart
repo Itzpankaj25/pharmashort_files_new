@@ -532,46 +532,47 @@ class listwidget extends StatelessWidget {
                           ),
                         ),
                         SizedBox(
-                          height: 6,
+                          height: 10,
                         ),
-                        Row(
-                          children: [
+                        Padding(
+                          padding: const EdgeInsets.only(right: 8.0),
+                          child: Row(
+                            children: [
 
-                            Spacer(),
-                            Text('4 min read',style: Helveticaregular.copyWith(
-                              color: ColorResources.LIGHTBLACK,
-                            ),),
-                            SizedBox(
-                              width: 4,
+                              Spacer(),
+                              Text('4 min read',style: Helveticaregular.copyWith(
+                                color: ColorResources.LIGHTBLACK,
+                              ),),
+                              SizedBox(
+                                width: 4,
+                              ),
+                              Text('7 hours ago',style: Helveticaregular.copyWith(
+                                color: ColorResources.LIGHTBLACK,
+                              ),),
+                              SizedBox(
+                                width: 4,
+                              ),
+                              Text('ANIMAL HEALTH',style: HelveticaBold.copyWith(
+                                color: ColorResources.Orange,
+                              ),),
+                              SizedBox(
+                                width: 4,
+                              ),
+                            //  Icon(Icons.share),
+                              SvgPicture.asset('assets/images/icons svg/Icon-feather-share.svg',
+                                color: Colors.black,
                             ),
-                            Text('7 hours ago',style: Helveticaregular.copyWith(
-                              color: ColorResources.LIGHTBLACK,
-                            ),),
-                            SizedBox(
-                              width: 4,
-                            ),
-                            Text('ANIMAL HEALTH',style: HelveticaBold.copyWith(
-                              color: ColorResources.Orange,
-                            ),),
-                            SizedBox(
-                              width: 4,
-                            ),
-                          //  Icon(Icons.share),
-                            SvgPicture.asset('assets/images/icons svg/Icon-feather-share.svg',
-                              color: Colors.black,
-                              height: 4,
-                              width: 6,
-                              allowDrawingOutsideViewBox: true,),
-                            SizedBox(
-                              width: 4,
-                            ),
-                          // Icon(Icons.bookmark),
-                            SvgPicture.asset('assets/images/icons svg/Icon ionic-ios-bookmark.svg',
-                              height: 8,
-                              width: 7,
-                              allowDrawingOutsideViewBox: true,),
+                              SizedBox(
+                                width: 4,
+                              ),
+                            // Icon(Icons.bookmark),
+                              SvgPicture.asset('assets/images/icons svg/Icon ionic-ios-bookmark.svg',
+                                height: 15,
+                                width: 14,
+                                ),
 
-                          ],
+                            ],
+                          ),
                         ),
                       ],
                     ),

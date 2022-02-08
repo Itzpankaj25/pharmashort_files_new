@@ -36,9 +36,7 @@ class BottomBar extends StatelessWidget {
 
             // button 2
             IconButton(
-                icon: SvgPicture.asset(
-                    'assets/images/icons svg/Layer 2.svg'
-                ),
+                icon: Image.asset('assets/images/watch.png'),
                 onPressed: (){
                   Navigator.of(context).push(MaterialPageRoute(builder: (context)=> ListPage()));
                 }),

@@ -29,17 +29,17 @@ class MyApp extends StatelessWidget {
         )
       ),
      home: HomeState(),
-      initialRoute: MyRoutes.NotificationPageRout,
-      routes: {
-        // "/": (context) => OnBoardingPage(),
-        MyRoutes.HomeStateRout: (context) => HomeState(),
-        MyRoutes.HomePagerouts: (context) => HomePage(),
-        MyRoutes.ListPageRout: (context) => ListPage(),
-        MyRoutes.ProfilePageRout: (context) => ProfilePage(),
-        MyRoutes.SearchScreenRout: (context) => SearchScreen(),
-        MyRoutes.AnimalHealthRout: (context) => AnimalHealth(),
-        MyRoutes.NotificationPageRout: (context) => NotificationPage(),
-      },
+      // initialRoute: MyRoutes.NotificationPageRout,
+      // routes: {
+      //   // "/": (context) => OnBoardingPage(),
+      //   MyRoutes.HomeStateRout: (context) => HomeState(),
+      //   MyRoutes.HomePagerouts: (context) => HomePage(),
+      //   MyRoutes.ListPageRout: (context) => ListPage(),
+      //   MyRoutes.ProfilePageRout: (context) => ProfilePage(),
+      //   MyRoutes.SearchScreenRout: (context) => SearchScreen(),
+      //   MyRoutes.AnimalHealthRout: (context) => AnimalHealth(),
+      //   MyRoutes.NotificationPageRout: (context) => NotificationPage(),
+      // },
     );
   }
 }
