@@ -1,4 +1,0 @@
-#Mon Feb 07 18:02:52 PST 2022
-base.0=E\:\\FlutterProject\\pharmashort files\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-renamed.0=classes.dex
-path.0=classes.dex

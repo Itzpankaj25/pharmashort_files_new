@@ -604,3 +604,117 @@ class FlotingAction extends StatelessWidget {
     );
   }
 }
+
+
+class CardView extends StatelessWidget {
+  const CardView({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      child: Container(
+        height: 110,
+        width: 99,
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(15),
+        ),
+        child: Column(
+          children: [
+            Positioned(
+                top: 0,
+                left: 0,
+                bottom: 0,
+                child: Container(
+                  height: 68,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.only(
+                      topRight: Radius.circular(6),
+                      topLeft: Radius.circular(6),
+                    ),
+                    image: DecorationImage(
+                      image: AssetImage(
+                          'assets/images/Rectangle 9.png'),
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+
+                  child: Column(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.only(
+                          top: 8,
+                        ),
+                        child: Row(
+                          children: [
+                            Spacer(),
+                            Padding(
+                              padding: const EdgeInsets.only(
+                                  right: 8.0),
+                              child: Container(
+                                height: 14,
+                                width: 14,
+                                decoration: BoxDecoration(
+                                  borderRadius:
+                                  BorderRadius.circular(30),
+                                  color: ColorResources
+                                      .OrangeLight,
+                                ),
+                                child: Padding(
+                                  padding: const EdgeInsets.all(4.0),
+                                  child: Image.asset(
+                                    'assets/images/Path 707@2x.png',
+                                    fit: BoxFit.cover,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      // Padding(
+                      //   padding: const EdgeInsets.only(top: 26.0),
+                      //   child: Container(
+                      //     height: 30,
+                      //     width: 30,
+                      //     decoration: BoxDecoration(
+                      //       borderRadius:
+                      //       BorderRadius.circular(30),
+                      //       color: ColorResources
+                      //           .OrangeLight,
+                      //     ),
+                      //     child: Padding(
+                      //       padding:
+                      //       const EdgeInsets.all(8.0),
+                      //       child: SvgPicture.asset(
+                      //         'assets/images/icons svg/reload.svg',
+                      //         color: Colors.white,
+                      //       ),
+                      //     ),
+                      //   ),
+                      // ),
+                    ],
+                  ),
+                )),
+
+            Padding(
+              padding: const EdgeInsets.all(5.0),
+              child: Text(
+                'Animal Health',
+                textAlign: TextAlign.center,
+                style: Helveticaregular.copyWith(
+                  color: ColorResources.BLACK,
+                  fontSize: 10,
+                ),
+              ),
+            ),
+
+          ],
+        ),
+      ),
+    );
+  }
+}

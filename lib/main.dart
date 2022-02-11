@@ -4,9 +4,13 @@ import 'package:pharmashots/Screen/home_screen.dart';
 import 'package:pharmashots/Screen/list_screen.dart';
 import 'package:pharmashots/Screen/profile_page.dart';
 import 'package:pharmashots/Screen/search_screen.dart';
+import 'package:pharmashots/Screen/search_screen_2.dart';
 import 'package:pharmashots/routs.dart';
 import 'Screen/get_notification.dart';
 import 'Screen/home.dart';
+import 'Screen/image_screen.dart';
+import 'Screen/interests_screen.dart';
+import 'Screen/top_doctors.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,18 +32,20 @@ class MyApp extends StatelessWidget {
           elevation: 0.0,
         )
       ),
-     home: HomeState(),
-      // initialRoute: MyRoutes.NotificationPageRout,
-      // routes: {
-      //   // "/": (context) => OnBoardingPage(),
-      //   MyRoutes.HomeStateRout: (context) => HomeState(),
-      //   MyRoutes.HomePagerouts: (context) => HomePage(),
-      //   MyRoutes.ListPageRout: (context) => ListPage(),
-      //   MyRoutes.ProfilePageRout: (context) => ProfilePage(),
-      //   MyRoutes.SearchScreenRout: (context) => SearchScreen(),
-      //   MyRoutes.AnimalHealthRout: (context) => AnimalHealth(),
-      //   MyRoutes.NotificationPageRout: (context) => NotificationPage(),
-      // },
+   home: HomeState(),
+  //     initialRoute: MyRoutes.SearchScreen2Rout,
+  //     routes: {
+  //       // "/": (context) => OnBoardingPage(),
+  //       MyRoutes.ImageScreenRout: (context) => ImageScreen(),
+  //       MyRoutes.HomePagerouts: (context) => HomePage(),
+  //       MyRoutes.ListPageRout: (context) => ListPage(),
+  //       MyRoutes.ProfilePageRout: (context) => ProfilePage(),
+  //       MyRoutes.SearchScreenRout: (context) => SearchScreen(),
+  //       MyRoutes.AnimalHealthRout: (context) => AnimalHealth(),
+  //       MyRoutes.NotificationPageRout: (context) => NotificationPage(),
+  //       MyRoutes.TopDoctorsRout: (context) => TopDoctors(),
+  //       MyRoutes.SearchScreen2Rout: (context) => SearchScreen2(),
+  //     },
     );
   }
 }

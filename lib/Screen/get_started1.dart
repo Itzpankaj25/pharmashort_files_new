@@ -22,11 +22,10 @@ class GetStarted1 extends StatelessWidget{
             Center(
               child: Column(
                 children: [
-                  SizedBox(
-                    height: MediaQuery.of(context).size.height * 0.15,
+                  SizedBox(height: 90,
                   ),
                   Container(
-                    width: 250,height: 260,
+                    width: 231,height: 251,
                       decoration: BoxDecoration(
                         image: DecorationImage(
                           image: const AssetImage('assets/images/Group.png'),
@@ -49,7 +48,7 @@ class GetStarted1 extends StatelessWidget{
                       textAlign: TextAlign.center,
                     ),
                   ),
-                  Padding(padding: EdgeInsets.only(top: 12,bottom: 30),
+                  Padding(padding: EdgeInsets.only(top: 12,),
                     child:Center(
                       child:Text(
                         'Real - time summarised news in 3 shots from Biopharma, MedTech, Digital Health & Life Science Industry.',
@@ -64,7 +63,7 @@ class GetStarted1 extends StatelessWidget{
                         textAlign: TextAlign.center,
                       ) ,
                     ) ,),
-                  Padding(padding: EdgeInsets.only(top: 12,bottom: 30),
+                  Padding(padding: EdgeInsets.only(top: 18,bottom: 12),
                     child:Center(
                       child: Text(
                         'Readable In 60 Seconds',

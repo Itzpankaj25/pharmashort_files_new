@@ -217,7 +217,7 @@ class _SignInScreenState extends State<SignInScreen> {
                            ),
                          ),
                          Pinned.fromPins(
-                           Pin(size: 181.0, middle: 0.5251),
+                           Pin(size: 160.0, middle: 0.5800),
                            Pin(size: 27.0, middle: 0.889),
                            child: Text(
                              'Choose your email',
@@ -432,7 +432,7 @@ class _SignInScreenState extends State<SignInScreen> {
                                        fontSize: 16,
                                        color: const Color(0xff000000),
                                      ),
-                                     textAlign: TextAlign.left,
+                                     textAlign: TextAlign.center,
                                    ) ,
                                  ),
                                ),

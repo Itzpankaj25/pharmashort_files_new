@@ -4,6 +4,7 @@ import 'package:pharmashots/Screen/animal_health_screen.dart';
 import 'package:pharmashots/Screen/list_screen.dart';
 import 'package:pharmashots/Screen/profile_page.dart';
 import 'package:pharmashots/Screen/search_screen.dart';
+import 'package:pharmashots/Screen/top_doctors.dart';
 
 class BottomBar extends StatelessWidget {
   const BottomBar({Key? key}) : super(key: key);
@@ -13,6 +14,7 @@ class BottomBar extends StatelessWidget {
     return BottomAppBar(
       color: Colors.white,
       shape: CircularNotchedRectangle(),
+      notchMargin: 2,
       child: Container(
         height: 55,
         padding: EdgeInsets.symmetric(horizontal: 20),
@@ -48,7 +50,7 @@ class BottomBar extends StatelessWidget {
                     'assets/images/icons svg/Icon ionic-ios-bookmark.svg'
                 ),
                 onPressed: (){
-                  Navigator.of(context).push(MaterialPageRoute(builder: (context)=> ProfilePage()));
+                  Navigator.of(context).push(MaterialPageRoute(builder: (context)=> TopDoctors()));
                 }),
 
             // button 4
@@ -56,7 +58,9 @@ class BottomBar extends StatelessWidget {
                 icon:  SvgPicture.asset(
                     'assets/images/icons svg/icn_profile_active.svg'
                 ),
-                onPressed: (){}),
+                onPressed: (){
+                  Navigator.of(context).push(MaterialPageRoute(builder: (context)=> ProfilePage()));
+                }),
           ],
         ),
       ),

@@ -3,6 +3,9 @@ import 'package:pharmashots/Constants/ColorButton.dart';
 import 'package:pharmashots/Constants/color_resource.dart';
 import 'package:pharmashots/Constants/fonts.dart';
 import 'package:pharmashots/Screen/animal_health_screen.dart';
+import 'package:pharmashots/Screen/search_screen_2.dart';
+
+import 'interests_screen.dart';
 
 class NotificationPage extends StatelessWidget {
   const NotificationPage({Key? key}) : super(key: key);
@@ -84,7 +87,7 @@ class NotificationPage extends StatelessWidget {
                           onTap: (){
                             Navigator.push(context,
                                 MaterialPageRoute(builder: (context) {
-                                  return AnimalHealth();
+                                  return InterestPage();
                                 }));
                           },
                           child: Container(

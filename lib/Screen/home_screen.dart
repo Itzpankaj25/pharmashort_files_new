@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:pharmashots/Constants/color_resource.dart';
 import 'package:pharmashots/Constants/components.dart';
 import 'package:pharmashots/Constants/fonts.dart';
@@ -48,11 +49,16 @@ class HomePage extends StatelessWidget {
                                 SizedBox(
                                   width: 8,
                                 ),
-                                Image.asset('assets/images/Icon feather-share.png'),
+                                SvgPicture.asset('assets/images/icons svg/Icon-feather-share.svg',
+                                  color: Colors.white,
+                                ),
                                 SizedBox(
                                   width: 20,
                                 ),
-                                Image.asset('assets/images/Icon feather-share.png'),
+                                 SvgPicture.asset(
+                                    'assets/images/icons svg/Icon ionic-ios-bookmark.svg',
+                                   color: Colors.white,
+                                ),
                               ],
                             ),
                           ),
@@ -67,7 +73,13 @@ class HomePage extends StatelessWidget {
                               borderRadius: BorderRadius.circular(30),
                               color: Colors.black54,
                             ),
-                            child: Image.asset('assets/images/Group 1035@2x.png'),
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: SvgPicture.asset(
+                                'assets/images/icons svg/reload.svg',
+                                color: Colors.white,
+                              ),
+                            ),
                           ),
                         ),
                       ],
@@ -82,7 +94,7 @@ class HomePage extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(top: 200),
             child: Container(
-              height: 580,
+              height: double.infinity,
               width: 390,
               decoration: BoxDecoration(
                   color: Colors.white,
@@ -107,7 +119,7 @@ class HomePage extends StatelessWidget {
                           width: 90,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(16),
-                            color: Colors.orange,
+                            color: ColorResources.OrangeLight,
                           ),
                           child: Center(child: Text('BIOTHECH',
                             style:HelveticaBold.copyWith(
@@ -184,9 +196,9 @@ class HomePage extends StatelessWidget {
           controller: controller,
         ),
       ),
-      // floatingActionButton: FlotingAction(),
-      // floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-      // bottomNavigationBar: BottomBar(),
+      floatingActionButton: FlotingAction(),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      bottomNavigationBar: BottomBar(),
     );
   }
 }
