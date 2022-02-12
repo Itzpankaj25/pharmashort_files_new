@@ -33,6 +33,7 @@ class SearchScreen2 extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.start,
+
               children: [
                 Container(
                   height: 50,

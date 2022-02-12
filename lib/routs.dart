@@ -10,4 +10,5 @@ class MyRoutes {
   static String TopDoctorsRout = "/TopDoctors";
   static String ImageScreenRout = "/ImageScreen";
   static String SearchScreen2Rout = "/SearchScreen2";
+  static String DiscoverPageRout = "/DiscoverPage";
 }

@@ -718,3 +718,125 @@ class CardView extends StatelessWidget {
     );
   }
 }
+
+class TopNewsCard extends StatelessWidget {
+  const TopNewsCard({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(15.0),
+      ),
+      child: Container(
+        height: 220,
+        width: 236,
+        child: Stack(
+          children: [
+            Positioned(
+                top: 0,
+                left: 0,
+                right: 0,
+                child: Container(
+                  height: 155,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.only(
+                      topRight: Radius.circular(12),
+                      topLeft: Radius.circular(12),
+                    ),
+                    image: DecorationImage(
+                      image:
+                      AssetImage('assets/images/Rectangle 9.png'),
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                )),
+            Positioned(
+              right: 0,
+              bottom: 0,
+              left: 0,
+              top: 162,
+              child: Padding(
+                padding: const EdgeInsets.only(left: 12),
+                child: Container(
+                  height: 31,
+                  width: 222,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text('COVID 19',style:HelveticaBold.copyWith(
+                        color: ColorResources.Orange,
+                      ), ),
+                      Text(
+                        'Dengue Cases On Rise : Here’s What You Can Do To Protect Yourself',
+                        style: FormaDJRDisplayBold.copyWith(
+                          color: ColorResources.BLACK,
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(right: 16.0,top: 18),
+                        child: Row(
+                          children: [
+
+                            Spacer(),
+
+                            SizedBox(
+                              width: 8,
+                            ),
+                            SvgPicture.asset(
+                              'assets/images/icons svg/Icon-feather-share.svg',
+                              color: Colors.black,
+                            ),
+                            SizedBox(
+                              width: 8,
+                            ),
+                            SvgPicture.asset(
+                              'assets/images/icons svg/Icon ionic-ios-bookmark.svg',
+                              height: 14,
+                              width: 13,
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+class QuickReadCard extends StatelessWidget {
+  const QuickReadCard({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      height: 106,
+      width: 82,
+      child: Column(
+        children: [
+          Image.asset('assets/images/1@2x.png'),
+          SizedBox(
+            height: 8,
+          ),
+          Text(
+            'Top 20',
+            style: FormaDJRDisplayBold.copyWith(
+              color: ColorResources.BLACK,
+              fontSize: 12,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
