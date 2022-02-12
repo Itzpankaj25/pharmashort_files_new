@@ -8,6 +8,7 @@ import 'package:pharmashots/Screen/search_screen_2.dart';
 import 'package:pharmashots/routs.dart';
 import 'Screen/discover_screen.dart';
 import 'Screen/get_notification.dart';
+import 'Screen/get_started1.dart';
 import 'Screen/home.dart';
 import 'Screen/image_screen.dart';
 import 'Screen/interests_screen.dart';
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
         )
       ),
   home: HomeState(),
- //      initialRoute: MyRoutes.DiscoverPageRout,
+ //      initialRoute: MyRoutes.GetStarted1Rout,
  //      routes: {
  //        // "/": (context) => OnBoardingPage(),
  //        MyRoutes.ImageScreenRout: (context) => ImageScreen(),
@@ -47,6 +48,7 @@ class MyApp extends StatelessWidget {
  //        MyRoutes.TopDoctorsRout: (context) => TopDoctors(),
  //        MyRoutes.SearchScreen2Rout: (context) => SearchScreen2(),
  //        MyRoutes.DiscoverPageRout: (context) => DiscoverPage(),
+ //        MyRoutes.GetStarted1Rout: (context) => GetStarted1(),
  //      },
     );
   }
